@@ -68,10 +68,10 @@ minutes = %M
 We create a csv file to collect al the info regarding the salaries
 
 #with open('time_track_info.csv', mode='a') as csv_file
-This command is used to create the name of the csv file and set the mode of addition to append so that it does not rewrite thw already existing information
+This command is used to create the name of the csv file and set the mode of addition to append so that it does not overwrite the already existing information
 
 #Fieldnames
-COntains a list of the column headings for the data collected
+Contains a list of the column headings for the data collected
 
 #writer.writerow
 Will update the spreadsheet with the date and time on your laptop when ever the progrm is run to calculate the working time.
