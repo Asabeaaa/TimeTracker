@@ -22,12 +22,12 @@ import csv
 import time
 
 ## using tinker to create our window
-from tkinter import * # Import tkinter library in your Python Program.
-Window = Tk() # Declare a window object using Tk() method.
-Window.mainloop() # End the program using the mainloop() method for the window. This method holds the window active.Without this method the window does not run
-window.title("TIME TRACKER") #Set the title of the window
-window.geometry('370x400') # Set the width and height of the window
-window.configure(bg='white') #Set the background of the window to white
+- from tkinter import * # Import tkinter library in your Python Program.
+- Window = Tk() # Declare a window object using Tk() method.
+- Window.mainloop() # End the program using the mainloop() method for the window. This method holds the window active.Without this method the window does not run
+- window.title("TIME TRACKER") #Set the title of the window
+- window.geometry('370x400') # Set the width and height of the window
+- window.configure(bg='white') #Set the background of the window to white
 
 ###### creating the start and stop button
 We created the start and stop buttons using the Button class.
@@ -50,13 +50,15 @@ We created 2 functions
 ###### money_made: this function when run stores the current time on your laptop. Gets the start time from the first function and changes them both to hours. It then calculates how many hours were spent working by finding the difference, then calculates how much money he earns based on the entry for how much he earns an hour from the user. After it writes all the information to a file. Every time this function is run the file is appended with the information so that it does not overwrite any information stored in it
 - The datetime module supplies classes for manipulating the dates and times.
 - the datetime class helps us calculate for the day(year/month/day) and the time(hours:minutes) where;
-year = %y,
 
-day = %d,
+--
+year = %y
 
-hour = %H,
+day = %d
 
-month = %m,
+hour = %H
+
+month = %m
 
 minutes = %M
 
